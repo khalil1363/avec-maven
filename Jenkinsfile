@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Récupération du code du prof') {
             steps {
-                git url: 'https://github.com/mhassini/avec-maven.git', branch: 'master'
+                git url: 'https://github.com/khalil1363/avec-maven.git', branch: 'master'
             }
         }
 
