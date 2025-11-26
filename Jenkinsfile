@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/mhassini/avec-maven.git'
+                git 'https://github.com/khalil1363/avec-maven.git'
             }
         }
         stage('Build') {
